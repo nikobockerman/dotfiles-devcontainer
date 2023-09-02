@@ -8,7 +8,8 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "editorconfig.editorconfig"
+        "editorconfig.editorconfig",
+        "davidanson.vscode-markdownlint"
       ]
     }
   }
