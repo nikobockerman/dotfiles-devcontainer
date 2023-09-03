@@ -9,8 +9,7 @@
     "vscode": {
       "extensions": [
         "editorconfig.editorconfig",
-        "davidanson.vscode-markdownlint",
-        "mads-hartmann.bash-ide-vscode"
+        "davidanson.vscode-markdownlint"
       ]
     }
   }
