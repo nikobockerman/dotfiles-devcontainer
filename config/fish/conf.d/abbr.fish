@@ -7,5 +7,6 @@ if status --is-interactive
   abbr gsw git switch
   abbr gswc git switch --create
   abbr grba git rebase --autostash
+  abbr grbi git rebase --interactive --autostash --autosquash
   abbr gfa git fetch --all --prune
 end
