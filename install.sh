@@ -7,6 +7,7 @@ set -x
 pushd config
 targetPath=$(realpath .)
 for d in *; do
+  rm -rf ~/.config/"$d"
   ln -s "$targetPath"/"$d" ~/.config/"$d"
 done
 popd
