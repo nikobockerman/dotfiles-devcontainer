@@ -4,7 +4,7 @@ set -euo pipefail
 set -x
 
 # Initialize .config contents
-mkdir ~/.config
+mkdir ~/.config || true
 pushd config
 targetPath=$(realpath .)
 for d in *; do
