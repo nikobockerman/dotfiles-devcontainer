@@ -1,4 +1,5 @@
 if status --is-interactive
+  abbr gb git branch
   abbr gd git diff
   abbr gdst git diff --staged
   abbr gfa git fetch --all --prune
