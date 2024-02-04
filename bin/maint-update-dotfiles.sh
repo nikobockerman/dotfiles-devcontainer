@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Run "git pull" to update dotfiles repository within a container
+# Run "git pull" to update dotfiles repository within a devcontainer
 
 set -eu
 
