@@ -7,4 +7,4 @@ set -eu
 repository=~/dotfiles
 
 cd $repository
-git pull
+git pull --autostash
