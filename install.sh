@@ -3,6 +3,9 @@
 set -euo pipefail
 set -x
 
+# Prepare directories
+mkdir -p ~/.cache/python/pycache
+
 # Initialize .config contents
 mkdir ~/.config || true
 pushd config
@@ -14,7 +17,6 @@ done
 popd
 
 # Install scripts to .local/bin
-
 mkdir -p ~/.local/bin
 pushd bin
 targetPath=$(realpath .)
