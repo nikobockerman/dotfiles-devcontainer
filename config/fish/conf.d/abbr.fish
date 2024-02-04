@@ -11,7 +11,6 @@ if status --is-interactive
   abbr glog git log --oneline --graph --decorate
   abbr gloga git log --oneline --graph --decorate --all
   abbr gpu "git push -u origin (git branch --show-current)"
-  abbr gpuf "git push -u fork (git branch --show-current)"
   abbr grba git rebase --autostash
   abbr grbc git rebase --continue
   abbr grbi git rebase -i --autostash --autosquash --update-refs
