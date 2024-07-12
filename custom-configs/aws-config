@@ -4,7 +4,7 @@ sso_account_id = niko.bockerman@mangusti
 sso_role_name = PowerUserAccess
 region = eu-north-1
 
-[sso_session mangusti]
+[sso-session mangusti]
 sso_start_url = https://d-c36709eacf.awsapps.com/start
 sso_region = eu-north-1
 sso_registration_scopes = sso:account:access
