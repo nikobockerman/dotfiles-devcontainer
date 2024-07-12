@@ -26,6 +26,13 @@ for f in *; do
 done
 popd
 
+# Initialize custom configs
+mkdir -p ~/.aws
+pushd custom-configs
+targetPath=$(realpath .)
+ln -s "$targetPath"/aws-config ~/.aws/config
+popd
+
 # Launch fish shell from .bashrc on interactive sessions
 cat <<EOF >> ~/.bashrc
 
