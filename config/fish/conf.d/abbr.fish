@@ -17,4 +17,6 @@ if status --is-interactive
   abbr gst git status
   abbr gsw git switch
   abbr gswc git switch --create
+
+  abbr t task
 end
