@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -euo pipefail
+set -eo pipefail
 set -x
 
 # Skip completely based on environment variable
@@ -10,6 +10,8 @@ if [ -n "$DOTFILES_SKIP_INSTALL" ]; then
     exit 0
   fi
 fi
+
+set -u
 
 # Prepare directories
 mkdir -p ~/.cache/python/pycache
