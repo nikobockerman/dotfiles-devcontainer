@@ -40,9 +40,3 @@ pushd custom-configs
 targetPath=$(realpath .)
 ln -s "$targetPath"/aws-config ~/.aws/config
 popd
-
-# Launch fish shell from .bashrc on interactive sessions
-cat <<EOF >> ~/.bashrc
-
-exec fish
-EOF
