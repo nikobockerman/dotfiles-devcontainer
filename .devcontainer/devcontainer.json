@@ -5,6 +5,9 @@
     "ghcr.io/devcontainers-contrib/features/shfmt:latest": {},
     "ghcr.io/lukewiwa/features/shellcheck:latest": {}
   },
+  "containerEnv": {
+    "DOTFILES_SKIP_INSTALL": "true"
+  },
   "customizations": {
     "vscode": {
       "extensions": [

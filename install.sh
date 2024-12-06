@@ -3,6 +3,14 @@
 set -euo pipefail
 set -x
 
+# Skip completely based on environment variable
+if [ -n "$DOTFILES_SKIP_INSTALL" ]; then
+  # Allow forcing installation
+  if [ -z "$DOTFILES_FORCE_INSTALL" ]; then
+    exit 0
+  fi
+fi
+
 # Prepare directories
 mkdir -p ~/.cache/python/pycache
 
