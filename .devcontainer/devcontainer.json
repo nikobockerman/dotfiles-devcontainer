@@ -8,6 +8,7 @@
   "containerEnv": {
     "DOTFILES_SKIP_INSTALL": "true"
   },
+  "onCreateCommand": "DOTFILES_FORCE_INSTALL=true bash install.sh",
   "customizations": {
     "vscode": {
       "extensions": [
